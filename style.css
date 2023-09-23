@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.all-center{
+    width: 100%;
+    padding-inline: 20px;
+}
+
+.btn-dark{
+    color: white;
+    background-color: black;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+}
+.btn-dark:hover{
+    background-color: rgb(49, 49, 49);
+}
+
+#header1{
+    background-color: black;
+    color: white;
+    padding: 18px 20px;
+}
+
+#top-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#search{
+    padding-inline: 20px;
+    flex: 1;
+}
+
+#btn-search{
+    padding: 12px 30px;
+    width: 230px;
+}
+
+#five-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#five-buttons>button{
+    flex: 1;
+}
+
+.all-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#second-table{
+    margin-bottom: 20px;
+
+}
+
+td{
+    padding: 12px 20px;
+}
+
+.table-invisible{
+    display: none;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.details>img{
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+}
